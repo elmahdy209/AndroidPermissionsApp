@@ -33,3 +33,4 @@ To build the project:
 
 ```bash
 ./gradlew assembleDebug
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elmahdy209/AndroidPermissionsApp)
