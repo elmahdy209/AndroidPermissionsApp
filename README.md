@@ -81,4 +81,4 @@ Contributions are welcome! Please follow these steps:
 3. Commit your changes with a clear message.
 4. Submit a pull request for review.
 ### License
-This project is licensed under the [MIT License][https://opensource.org/licenses/MIT].
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
