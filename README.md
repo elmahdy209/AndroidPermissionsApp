@@ -42,41 +42,43 @@ Before setting up the project, ensure you have the following installed:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/elmahdy209/AndroidPermissionsApp.git
-2.Open the project in Android Studio:
+   
+2. **Open the project in Android Studio:**
 
-Launch Android Studio.
-Select File > Open, and navigate to the project folder.
-Sync Gradle:
+- Launch Android Studio.
+- Select File > Open, and navigate to the project folder.
+3. **Sync Gradle:**
+- Allow Android Studio to sync the Gradle files automatically.
+- If prompted, install the necessary SDKs and dependencies.
+- 
+4. **Build the project:**
 
-Allow Android Studio to sync the Gradle files automatically.
-If prompted, install the necessary SDKs and dependencies.
-Build the project:
+- Click on the Build menu and select Make Project.
+- 
+5. **Run the application:**
 
-Click on the Build menu and select Make Project.
-Run the application:
-
-Select a target device (emulator or physical device).
-Hit the Run button or press Shift + F10.   
-Development
+- Select a target device (emulator or physical device).
+- Hit the Run button or press Shift + F10.   
+### Development
 Feel free to contribute to the project! Follow the Contributing section for details on how to get started.
 
-Building
+### Building
 To build a release APK:
 
-Open the Build menu in Android Studio.
-Select Build Bundle(s)/APK(s) > Build APK(s).
-Locate the APK file in the build/outputs/apk directory.
-Usage
+1. Open the Build menu in Android Studio.
+2. Select Build Bundle(s)/APK(s) > Build APK(s).
+3. Locate the APK file in the build/outputs/apk directory.
+### Usage
 After running the app:
 
-Test various permissions by triggering actions like accessing the camera or storage.
-Use the settings screen to manage permissions directly.
-Contributing
+- Test various permissions by triggering actions like accessing the camera or storage.
+- Use the settings screen to manage permissions directly.
+### Contributing
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Commit your changes with a clear message.
-Submit a pull request for review.
-License
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes with a clear message.
+4. Submit a pull request for review.
+### License
 This project is licensed under the MIT License.
