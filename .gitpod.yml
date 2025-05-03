@@ -1,0 +1,29 @@
+image:
+  file: .gitpod.Dockerfile
+
+ports:
+  - port: 6080
+    onOpen: open-preview
+  - port: 5037
+    onOpen: ignore
+  - port: 5554-5585
+    onOpen: ignore
+
+tasks:
+  - init: |
+      sudo apt-get update
+      mkdir -p ~/android-sdk-linux
+      wget https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip
+      unzip commandlinetools-linux-8512546_latest.zip -d ~/android-sdk-linux/
+      mkdir -p ~/android-sdk-linux/cmdline-tools/latest
+      mv ~/android-sdk-linux/cmdline-tools/* ~/android-sdk-linux/cmdline-tools/latest/ || true
+      rm commandlinetools-linux-8512546_latest.zip
+      export ANDROID_HOME="/workspace/android-sdk-linux"
+      export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
+      yes | sdkmanager --licenses
+      sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.2"
+      ./gradlew build
+    command: |
+      export ANDROID_HOME="/workspace/android-sdk-linux"
+      export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
+      ./gradlew assembleDebug

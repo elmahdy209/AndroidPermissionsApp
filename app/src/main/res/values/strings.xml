@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Permissions App</string>
+    <string name="request_permissions">Request Permissions</string>
+    <string name="toggle_play_store">Toggle Play Store</string>
+    <string name="permissions_granted">All permissions granted</string>
+    <string name="permissions_denied">Some permissions were denied</string>
+    <string name="permissions_already_granted">All permissions are already granted</string>
+</resources>
