@@ -2,35 +2,48 @@
 
 A simple Android application that demonstrates permission handling and Google Play Store integration.
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elmahdy209/AndroidPermissionsApp)
+
+---
+
+## Table of Contents
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Setup](#setup)
+- [Development](#development)
+- [Building](#building)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
 ## Features
 
-- Runtime permission handling for:
+- **Runtime Permission Handling** for:
   - Camera
   - Storage
   - Location
   - Audio Recording
-- Google Play Store integration
-- Supports Android 8.0 (API 26) and above
+- **Google Play Store Integration**
+- Supports **Android 8.0 (API 26)** and above
+
+---
+
+## Screenshots
+
+Add screenshots here to visually represent your app. For example:
+
+| Permissions Prompt       | App Home Screen        | Settings Page          |
+|---------------------------|------------------------|-------------------------|
+| ![Permission Prompt](link-to-screenshot1) | ![Home Screen](link-to-screenshot2) | ![Settings Page](link-to-screenshot3) |
+
+---
 
 ## Setup
 
-1. Clone the repository
-2. Open in Android Studio or Gitpod
-3. Build and run the application
+To set up the project, follow these steps:
 
-## Development
-
-This project uses:
-- Kotlin
-- Android SDK 33
-- Minimum SDK: 26 (Android 8.0)
-- AndroidX libraries
-- Material Design components
-
-## Building
-
-To build the project:
-
-```bash
-./gradlew assembleDebug
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elmahdy209/AndroidPermissionsApp)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/elmahdy209/AndroidPermissionsApp.git
